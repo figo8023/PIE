@@ -1,8 +1,8 @@
 package com.figo.pie.ch03;
 
-/**
- * Created by yzheng on 8/12/2015.
- */
+
+import java.util.Collections;
+
 public class MagicMachine {
     /* Returns the largest integer in the array */
     private int CompareToMax(int array[], int n) {
@@ -43,7 +43,7 @@ public class MagicMachine {
 
     public static void main(String[] args) {
         int[] array = {3, 6, 8, 3, 7, 4, 2, 6, 5, 2, 7, 4, 7, 9, 7, 8, 3, 6};
-        int n = 7;
+        int n = array.length;
         MagicMachine magicMachine = new MagicMachine();
         int max1 = magicMachine.CompareToMax(array, n);
         System.out.println(max1);
